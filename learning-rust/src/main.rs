@@ -27,9 +27,9 @@ fn main() {
     // if else
     let z = 5;
 
-    if(z < 0){
+    if z < 0 {
         println!("Negative");
-    } else if(x > 0) {
+    } else if x > 0 {
         println!("Positive");
     } else {
         println!("Zero");
