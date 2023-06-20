@@ -4,7 +4,10 @@
 // the same piece of data, without causing data races or memory unsafety issues
 
 
-// In Rust, we can either 
+// In Rust, we can either have
+// - one mutable reference
+// - or multiple immutable references
+// to one piece of data at any given time
 
 fn main () {
     let mut x = 5;
